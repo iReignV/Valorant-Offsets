@@ -34,7 +34,7 @@ namespace offsets
 	std::ptrdiff_t root_position = 0x0170;
 
 	// Health/Damage
-	std::ptrdiff_t damagee_hanfdfdler = 0xc68;
+	std::ptrdiff_t damage_handler = 0xc68;
 	std::ptrdiff_t health = 0x200;
 	std::ptrdiff_t shieldtype = 0x118;
 	std::ptrdiff_t shieldlife = 0x124;
