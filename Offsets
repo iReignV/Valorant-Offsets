@@ -46,12 +46,12 @@ namespace offsets
 	std::ptrdiff_t component_to_world = 0x300;
 	std::ptrdiff_t BoundsScale = 0x0474; // ASkeletalMeshComponent
 	std::ptrdiff_t bone_array = 0x760;
-	std::ptrdiff_t bone_array_cache = bone_array + 0x10;
+	std::ptrdiff_t bone_array_cache = 0x770;
 
 	std::ptrdiff_t LocalBounds = 0x0740;
 	std::ptrdiff_t bone_count = 0x768;
-	std::ptrdiff_t last_submit_time = 0x4a8;//BoundsScale + 0x4;
-	std::ptrdiff_t last_render_time = 0x4ac;//BoundsScale + 0x8;
+	std::ptrdiff_t last_submit_time = 0x4a8;
+	std::ptrdiff_t last_render_time = 0x4ac;
 	std::ptrdiff_t relative_location = 0x170; // FTransform
 	std::ptrdiff_t relative_rotation = 0x188; // FTransform
 
