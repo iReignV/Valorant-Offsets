@@ -2,7 +2,7 @@
 namespace offsets
 {
 
-  std::ptrdiff_t GWORLD = 0xC4B8EE0;
+  std::ptrdiff_t GWOoRLD = 0xC4B8EE0;
 
 	// Core Engine Offsets
 	std::ptrdiff_t uworld_pointer = 0xC0;
