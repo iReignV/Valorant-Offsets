@@ -32,7 +32,7 @@ namespace offsets
 	std::ptrdiff_t spawned_character = 0xB48; // AShooterCharacter
 	std::ptrdiff_t root_component = 0x0290;
 	std::ptrdiff_t root_position = 0x0170;
-
+	std::ptrdiff_t inventory = 0xC08;
 	// Health/Damage
 	std::ptrdiff_t damage_handler = 0xc68;
 	std::ptrdiff_t health = 0x200;
@@ -76,5 +76,9 @@ namespace offsets
 	std::ptrdiff_t actors_count = 0xA8;
 	std::ptrdiff_t actor_id = 0x18;
 	std::ptrdiff_t unique_id = 0x38;
+
+	// inventory
+	std::ptrdiff_t CurrentEquippable = 0x278;
+
 }
 
