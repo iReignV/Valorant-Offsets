@@ -32,7 +32,7 @@ namespace offsets
 	std::ptrdiff_t spawned_character = 0xB48; // AShooterCharacter
 	std::ptrdiff_t root_component = 0x0290;
 	std::ptrdiff_t root_position = 0x0170;
-	std::ptrdiff_t inventory = 0xbf8;
+	std::ptrdiff_t inventory = 0xC08;
 	// Health/Damage
 	std::ptrdiff_t damage_handler = 0xc70;
 	std::ptrdiff_t health = 0x200;
